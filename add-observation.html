@@ -76,10 +76,10 @@
           <fieldset>
             <legend>Location</legend>
             <label for="lat">Latitude<span id="latERR" class="required">*</span></label>
-            <input id="lat" type="number" placeholder="Enter Latitude" name="lat" required>
+            <input id="lat" type="number" placeholder="Enter Latitude" name="lat" min="-90" max="90" required>
 
             <label for="long">Longitude<span id="longERR" class="required">*</span></label>
-            <input id="long" type="number" placeholder="Enter Longitude" name="long" required>
+            <input id="long" type="number" placeholder="Enter Longitude" name="long" min="-180" max="180" required>
 
             <input id="share" type="checkbox" name="share">
             <label for="share">Share location information (i.e., it's ok to make this public)</label>
