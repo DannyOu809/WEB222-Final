@@ -1,0 +1,29 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+.required {
+    color: red;
+}
+
+#description {
+    width: 30em;
+}
+
+#notes {
+    height: 5em;
+    width: 31em;
+    overflow: auto;
+    resize: both;
+}
+
+#photographer {
+    width: 30em;
+}
+
+#photographer-email {
+    width: 30em;
+}
+
+#lat, #long {
+    width: 25%;
+}
